@@ -1,0 +1,370 @@
+#bodyPertama{
+    width: 100%;
+    height: inherit;
+    background: url('images/candi.png'), rgba(42, 38, 61, 0.82);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+}
+
+.title{
+    position: absolute;
+    margin-left: 476px;
+    margin-right: 476px;
+    margin-top: 160px;
+    margin-bottom: 329px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+}
+
+#index{
+    margin-bottom: 10px;
+    margin-left: 476px;
+    margin-right: 476px;
+    margin-top: 160px;
+}
+
+#logo{
+position: absolute;
+width: 165px;
+height: 165px;
+left: 564px;
+top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    color: #212529;
+    font-family: Pacifico;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: 0.500rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 6px;
+    transition: all 300ms ease-out;
+}
+
+
+.btn-outline-orange {
+    color: #FCB371;
+    border-color: #FCB371;
+}
+
+#buttonKiri{
+    position: absolute;
+    width: 156px;
+    height: 46px;
+    margin-left: 477px;
+    margin-top: 381px;
+    border: 2px solid #FCB371;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    align-items: center;
+}
+
+#buttonKanan{
+    position: absolute;
+    width: 156px;
+    height: 46px;
+    margin-left: 646px;
+    margin-top: 381px;
+    background: #FCB371;
+    border: 2px solid #FCB371;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.btn-outline-orange:hover{
+    transform: scale(0.87);
+    cursor: pointer;
+}
+.white{
+    color: white;
+}
+
+.whiteTitle{
+    color: white;
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 48px;
+    line-height: 84px;
+}
+
+.orange{
+    color: #fcb371;
+}
+
+#subtitle{
+position: absolute;
+width: 124px;
+height: 17px;
+margin-left: 578px;
+margin-top: 100px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+}
+
+#bodyKedua{
+position: absolute;
+width: 1280px;
+height: 720px;
+margin-left: 0px;
+margin-top: 0px;
+background: rgba(42, 38, 61, 0.82);
+background: url('images/pageDua.png'), rgba(42, 38, 61, 0.82);
+background-blend-mode: multiply;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.aboutKedua{
+position: absolute;
+left: 540px;
+right: 541px;
+top: 171px;
+bottom: 465px;
+font-family: Pacifico;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 84px;
+text-align: center;
+color: #FCB371;
+}
+
+.keterangan{
+position: absolute;
+width: 768px;
+height: 190px;
+left: 256px;
+top: 301px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+text-align: center; 
+color: #ffffff;
+}
+
+#bodyKetiga{
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: rgba(42, 38, 61, 0.82);
+    background: url('images/pageTiga.png'), rgba(42, 38, 61, 0.82);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.back{
+display: inline-block;
+position: absolute;
+width: 24px;
+height: 0px;
+left: 80px;
+top: 80px;
+}
+
+.title{
+position: absolute;
+margin-left: 518px;
+margin-right: 519px;
+margin-top: 58px;
+margin-bottom: 578px;
+font-family: Pacifico;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 84px;
+text-align: center;
+color: #FCB371;
+}
+
+.kembali{
+display: inline-block;
+position: absolute;
+width: 24px;
+height: 0px;
+left: 80px;
+top: 80px;
+box-sizing: border-box;
+}
+
+.inputSatu{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+position: absolute;
+width: 30%;
+height: 6vh;
+margin-top: 25vh;
+margin-left: 31.4vw;
+background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #A9A9A9;
+}
+
+.inputDua{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+position: absolute;
+width: 30%;
+height: 6vh;
+margin-top:37vh;
+margin-left: 31.4vw;
+background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #A9A9A9;
+}
+
+.inputTiga{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+position: absolute;
+width: 12%;
+height: 6vh;
+margin-left: 31.4vw;
+margin-top:49vh;
+background: #ffffff;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #A9A9A9;
+}
+
+.inputAnak{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+position: absolute;
+width: 17.7%;
+height: 11.1vh;
+margin-left: 45.6vw;;
+margin-top: 49.3vh;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #A9A9A9;
+}
+
+.inputEmpat{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+position: absolute;
+width: 30%;
+height: 10vh;
+margin-left: 31.5vw;
+margin-top: 61.3vh;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+color: #A9A9A9;
+}
+
+.buttonTerakhir{
+    
+    width: 32.7%;
+    height: 8vh;
+    padding: 12px;
+    background: violet;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    background: #FCB371;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    justify-items: center;
+    margin-top: 78vh;
+    margin-left: 31.5vw;
+}
